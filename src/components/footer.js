@@ -62,10 +62,12 @@ const Footer = () => {
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
             </Link>
-            <FaLinkedin
-              size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
+            <Link to="https://www.linkedin.com/in/athar-hossain-90300b173/">
+              <FaLinkedin
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </Link>
           </div>
           <FaArrowAltCircleUp
             onClick={() => {
