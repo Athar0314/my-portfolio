@@ -11,7 +11,7 @@ const Hero = () => {
       </div>
       <div className="content">
         <p>Hi I'M DEVELOPER.</p>
-        <h1>React Developer</h1>
+        <h1>Frontend Developer</h1>
         <div>
           <Link to="/project" className="btn">
             Project
