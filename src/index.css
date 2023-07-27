@@ -1,22 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-body{
+body {
   background-color: #000;
 }
-h1,h4, p, a{
+h1,
+h4,
+p,
+a {
   text-decoration: none;
   color: #fff;
 }
-ul{
+ul {
   list-style-type: none;
-
 }
-.btn{
+.btn {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
@@ -26,16 +28,16 @@ ul{
   font-weight: 600;
   cursor: pointer;
 }
-.btn-light{
+.btn-light {
   background: transparent;
   color: #fff;
 }
-.btn:hover{
-  background: rgba(255, 255, 255,0 );
+.btn:hover {
+  background: rgba(255, 255, 255, 0);
   color: #fff;
   transition: 0.2s;
 }
-.btn-light:hover{
-  color:  rgba(156, 93, 20, 0.945);
+.btn-light:hover {
+  color: rgba(156, 93, 20, 0.945);
   transition: 0.2s;
 }

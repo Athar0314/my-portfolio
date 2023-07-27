@@ -16,10 +16,10 @@ const PricingCard = () => {
           </Link>
         </div>
         <div className="card">
-          <p>My PortFolio</p>
+          <p>Random Quote Generator</p>
           <p>Using REACT JS HTML CSS</p>
           <p>UnResponsive Design</p>
-          <Link to="https://myportfolio17.rf.gd" className="btn">
+          <Link to="https://quotesgenerator17.netlify.app" className="btn">
             View Now
           </Link>
         </div>

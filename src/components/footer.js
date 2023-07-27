@@ -9,6 +9,7 @@ import {
   FaMailBulk,
   FaPhone,
   FaInstagram,
+  FaArrowAltCircleUp,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -66,6 +67,17 @@ const Footer = () => {
               style={{ color: "#fff", marginRight: "2rem" }}
             />
           </div>
+          <FaArrowAltCircleUp
+            onClick={() => {
+              window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+            }}
+            size={40}
+            style={{
+              color: "#fff",
+              marginLeft: "420px",
+              marginTop: "20px",
+            }}
+          />
         </div>
       </div>
     </div>
