@@ -41,3 +41,7 @@ ul {
   color: rgba(156, 93, 20, 0.945);
   transition: 0.2s;
 }
+
+.page404 {
+  color: #fff;
+}
