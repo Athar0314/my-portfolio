@@ -52,6 +52,18 @@ const PricingCard = () => {
           </Link>
         </div>
         <div className="card">
+          <p>Image Search App</p>
+          <p>Using AngularJS and Angular Material</p>
+          <p>Responsive Design</p>
+          <Link
+            to="https://angular-searchimage.vercel.app"
+            target="_blank"
+            className="btn"
+          >
+            View Now
+          </Link>
+        </div>
+        <div className="card">
           <p>Auth and Crud Application</p>
           <p>Using AngularJS, Json-Server and Angular Material</p>
           <p>Responsive Design</p>
