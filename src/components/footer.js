@@ -50,19 +50,28 @@ const Footer = () => {
             Reactjs. I enjoy doing programming and developing things.
           </p>
           <div className="social">
-            <Link to="https://www.facebook.com/profile.php?id=100008970912513">
+            <Link
+              target="_blank"
+              to="https://www.facebook.com/profile.php?id=100008970912513"
+            >
               <FaFacebook
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
             </Link>
-            <Link to="https://www.instagram.com/i_am_atharhossain/">
+            <Link
+              target="_blank"
+              to="https://www.instagram.com/i_am_atharhossain/"
+            >
               <FaInstagram
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
             </Link>
-            <Link to="https://www.linkedin.com/in/athar-hossain-90300b173/">
+            <Link
+              target="_blank"
+              to="https://www.linkedin.com/in/athar-hossain-90300b173/"
+            >
               <FaLinkedin
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
